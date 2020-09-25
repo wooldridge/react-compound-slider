@@ -102,7 +102,7 @@ export function getHandles(
       return val;
     })
     .map((val, i) => ({ key: `$$-${i}`, val }))
-    .sort(getSortByVal(reversed));
+    //.sort(getSortByVal(reversed));
 
   return { handles, changes };
 }
